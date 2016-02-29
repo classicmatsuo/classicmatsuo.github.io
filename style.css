@@ -54,12 +54,6 @@ body {
   overflow: auto;
 }
 
-@media only screen and (max-width: 480px){
-  .terminal-window section.terminal {
-    font-size: 1.5em;
-  }
-}
-
 .terminal-window section.terminal .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
