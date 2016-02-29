@@ -93,3 +93,10 @@ a {
   margin: 0 auto;
   width: 70%;
 }
+
+.centered:before{
+  content: url('foldericon.png');
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 5px 0px 0px;
+}
