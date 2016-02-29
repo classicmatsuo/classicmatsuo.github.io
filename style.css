@@ -77,7 +77,7 @@ body {
 }
 
 .terminal-data { display: none; }
-.terminal-window .gray { color: gray; }
-.terminal-window .green { color: green;}
+.terminal-window .gray { color: silver; }
+.terminal-window .green { color: #00FF00;}
 .terminal-window .yellow { color: yellow;}
 .terminal-window .red { color: red;}
