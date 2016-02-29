@@ -7,7 +7,7 @@ $(function() {
     }, {
       action: 'type',
       strings: ["cd /resume2016"],
-      output: ' ',
+      output: '<span>&nbsp;</span>',
       postDelay: 1000
     }, {
       action: 'type',
