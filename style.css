@@ -81,3 +81,8 @@ body {
 .terminal-window .green { color: #00FF00;}
 .terminal-window .yellow { color: yellow;}
 .terminal-window .red { color: red;}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
