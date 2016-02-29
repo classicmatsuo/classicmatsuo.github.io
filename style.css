@@ -49,9 +49,15 @@ body {
   position: absolute;
   width: 100%;
   top: 30px;
-  height: 460px;
+  height: 600px;
   /*bottom: 0;*/
   overflow: auto;
+}
+
+@media only screen and (max-width: 480px){
+  .terminal-window section.terminal {
+    font-size: 1.5em;
+  }
 }
 
 .terminal-window section.terminal .typed-cursor {
