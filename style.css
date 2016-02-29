@@ -16,7 +16,6 @@ body {
   height: 30px;
   border-radius: 8px 8px 0 0;
   padding-left: 10px;
-  padding-top: 3px;
 }
 
 .terminal-window header .button {
@@ -100,6 +99,7 @@ a {
   text-overflow: ellipsis;
   overflow-y: hidden;
   height: 19px;
+  vertical-align: middle;
 }
 
 .centered:before{
@@ -111,6 +111,6 @@ a {
 
 @media only screen and (max-width: 480px){
   .centered {
-    font-size: 0.75em;
+    font-size: 0.9em;
   }
 }
