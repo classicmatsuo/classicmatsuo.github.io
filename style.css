@@ -16,12 +16,13 @@ body {
   height: 30px;
   border-radius: 8px 8px 0 0;
   padding-left: 10px;
+  padding-top: 3px;
 }
 
 .terminal-window header .button {
   width: 12px;
   height: 12px;
-  margin: 10px 4px 0 0;
+  margin: 7px 4px 0 0;
   display: inline-block;
   border-radius: 8px;
 }
@@ -86,12 +87,20 @@ a {
   text-decoration: none;
 }
 
+.buttongroup {
+  display: inline-block;
+  width: 15%;
+  /* float: left; */
+  min-width: 60px;
+}
 .centered {
   display: inline-block;
   font-family: Arial;
   text-align: center;
-  margin: 0 auto;
   width: 70%;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  height: 20px;
 }
 
 .centered:before{
