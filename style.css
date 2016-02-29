@@ -90,7 +90,6 @@ a {
 .buttongroup {
   display: inline-block;
   width: 15%;
-  /* float: left; */
   min-width: 60px;
 }
 .centered {
@@ -100,7 +99,7 @@ a {
   width: 70%;
   text-overflow: ellipsis;
   overflow-y: hidden;
-  height: 20px;
+  height: 19px;
 }
 
 .centered:before{
@@ -108,4 +107,10 @@ a {
   display: inline-block;
   vertical-align: middle;
   margin: 0px 5px 0px 0px;
+}
+
+@media only screen and (max-width: 480px){
+  .centered {
+    font-size: 0.75em;
+  }
 }
