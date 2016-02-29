@@ -2,7 +2,6 @@ body {
   background: #6D7074;
 }
 
-
 .terminal-window {
   text-align: left;
   width: 95%;
@@ -85,4 +84,12 @@ body {
 a {
   color: yellow;
   text-decoration: none;
+}
+
+.centered {
+  display: inline-block;
+  font-family: Arial;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
 }
