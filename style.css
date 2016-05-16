@@ -1,5 +1,5 @@
 body {
-  background: #1f2e46;
+  background: #6D7074;
 }
 
 .terminal-window {
@@ -42,7 +42,7 @@ body {
   color: white;
   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
   font-size: 11pt;
-  background: #30353A;
+  background: #1f2e46;
   padding: 10px;
   box-sizing: border-box;
   position: absolute;
