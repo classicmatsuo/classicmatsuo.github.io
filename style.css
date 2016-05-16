@@ -1,5 +1,5 @@
 body {
-  background: #6D7074;
+  background: #1f2e46;
 }
 
 .terminal-window {
@@ -81,8 +81,14 @@ body {
 .terminal-window .yellow { color: yellow;}
 .terminal-window .red { color: red;}
 
+.terminal-window .blue { color: #2582fe;}
+.terminal-window .teal { color: #00FF00;}
+.terminal-window .green2 { color: #71b647;}
+.terminal-window .yellow2 { color: #e8d938;}
+.terminal-window .orange { color: #e5673d;}
+
 a {
-  color: yellow;
+  color: #00FF00;
   text-decoration: none;
 }
 
