@@ -42,7 +42,7 @@ body {
   color: white;
   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
   font-size: 11pt;
-  background: #30353A;
+  background: #1f2e46;
   padding: 10px;
   box-sizing: border-box;
   position: absolute;
@@ -81,8 +81,14 @@ body {
 .terminal-window .yellow { color: yellow;}
 .terminal-window .red { color: red;}
 
+.terminal-window .blue { color: #2582fe;}
+.terminal-window .teal { color: #32b5e2;}
+.terminal-window .green2 { color: #71b647;}
+.terminal-window .yellow2 { color: #e8d938;}
+.terminal-window .orange { color: #e5673d;}
+
 a {
-  color: yellow;
+  color: #32b5e2;
   text-decoration: none;
 }
 
