@@ -10,12 +10,13 @@ $(function() {
       postDelay: 1000
     }, {
       action: 'type',
+      //clear: true,
       strings: ['kmatsuo run'],
       output: $('.mimik-run-output').html()
     }, {
       action: 'type',
-      strings: [''],
-      postDelay: 1000
+      strings: ['', ''],
+      postDelay: 2000
     }
 
   ];
