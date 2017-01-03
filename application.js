@@ -6,8 +6,8 @@ $(function() {
       postDelay: 1000
     }, {
       action: 'type',
-      strings: ["cd /resume2016"],
-      output: '<span>&nbsp;</span><br>&nbsp;',
+      strings: ["cd /resume2017"],
+      output: '<br>&nbsp;',
       postDelay: 1000
     }, {
       action: 'type',
