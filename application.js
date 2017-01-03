@@ -7,7 +7,6 @@ $(function() {
     }, {
       action: 'type',
       strings: ["cd /resume2017"],
-      output: '&nbsp;',
       postDelay: 1000
     }, {
       action: 'type',
@@ -37,7 +36,7 @@ function runScripts(data, pos) {
       $('.typed-cursor').text('');
       prompt.typed({
         strings: script.strings,
-        typeSpeed: 30,
+        typeSpeed: 20,
         callback: function() {
           var history = $('.history').html();
           history = history ? [history] : [];
