@@ -7,6 +7,7 @@ $(function() {
     }, {
       action: 'type',
       strings: ['cd /resume2017'],
+      output: '&nbsp;',
       postDelay: 1000
     }, {
       action: 'type',
@@ -15,7 +16,7 @@ $(function() {
       output: $('.mimik-run-output').html()
     }, {
       action: 'type',
-      strings: ['', ''],
+      strings: [''],
       postDelay: 2000
     }
 
