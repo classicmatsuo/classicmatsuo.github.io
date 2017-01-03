@@ -1,22 +1,21 @@
 $(function() {
   var data = [{
       action: 'type',
-      strings: ["npm install -g kmatsuo"],
+      strings: ['npm install -g kmatsuo'],
       output: '<span class="gray">+matsuo@0.0.1 installed</span><br>&nbsp;',
       postDelay: 1000
     }, {
       action: 'type',
-      strings: ["cd /resume2017"],
+      strings: ['cd /resume2017'],
       postDelay: 1000
     }, {
       action: 'type',
-      //clear: true,
       strings: ['kmatsuo run'],
       output: $('.mimik-run-output').html()
     }, {
       action: 'type',
-      strings: ["loading...", ''],
-      postDelay: 2000
+      strings: [''],
+      postDelay: 1000
     }
 
   ];
