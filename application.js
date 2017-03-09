@@ -12,7 +12,7 @@ $(function() {
     }, {
       action: 'type',
       //clear: true,
-      strings: ['kmatsuo run'],
+      strings: ['npm run kmatsuo'],
       output: $('.mimik-run-output').html()
     }, {
       action: 'type',
