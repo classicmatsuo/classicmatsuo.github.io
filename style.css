@@ -9,6 +9,7 @@ body {
   border-radius: 10px;
   margin: auto;
   position: relative;
+  transition: all ease-in-out .3s;
 }
 
 .terminal-window header {
@@ -118,4 +119,38 @@ a {
   .centered {
     font-size: 0.9em;
   }
+}
+
+/* window maximize minimize and close */
+.terminal-window.window--maximized {
+  width: 100%;
+}
+.terminal-window.window--minimized {
+  height: 25px;
+  width: 180px;
+  overflow-x: hidden;
+}
+.terminal-window.terminal { display: none; }
+.terminal-window.window--destroyed {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.i-prompt {
+  width: 62px;
+  height: 62px;
+  background: url("https://cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-48.png") no-repeat center;
+  background-color: rgba(0,0,0,.35);
+  border-radius: 10px;
+  box-shadow: 0 3px 1px rgba(0,0,0,.25);
+  cursor: pointer;
+  transition: all ease-in-out .15s;
+  &:hover {
+    background-position: center 4px;
+  }
+}
+.i-prompt.hidden {
+  width: 0;
+  height: 0;
+  opacity: 0;
 }
