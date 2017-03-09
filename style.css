@@ -79,7 +79,7 @@ body {
 .terminal-window .gray { color: silver; }
 .terminal-window .green { color: #00FF00;}
 .terminal-window .yellow { color: yellow;}
-.terminal-window .red { color: red;}
+.terminal-window .red, .red a { color: red;}
 
 .terminal-window .blue { color: #2582fe;}
 .terminal-window .teal { color: #32b5e2;}
