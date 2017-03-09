@@ -27,11 +27,20 @@ body {
 .terminal-window header .button.green {
 	background: #3BB662;
 }
+.terminal-window header .button.green:hover {
+	background: #337949;
+}
 .terminal-window header .button.yellow {
 	background: #E5C30F;
 }
+.terminal-window header .button.yellow:hover {
+	background: #b39c22;
+}
 .terminal-window header .button.red {
 	background: #E75448;
+}
+.terminal-window header .button.red:hover {
+	background: #8e3f39;
 }
 .terminal-window section.terminal {
 	color: white;
