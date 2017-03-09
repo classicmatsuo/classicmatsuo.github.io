@@ -47,7 +47,7 @@ body {
 	color: white;
 	font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
 	font-size: 0.95em;
-	background: rgba(31, 46, 70, 0.4);
+	background: rgba(31, 46, 70, 0.75);
 	padding: 10px;
 	box-sizing: border-box;
 	position: absolute;
