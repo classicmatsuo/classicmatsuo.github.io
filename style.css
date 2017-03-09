@@ -1,6 +1,7 @@
 body {
 	background: #6D7074;
 	margin: 0 auto;
+	font-size: 14px;
 }
 .terminal-window {
 	text-align: left;
@@ -45,8 +46,8 @@ body {
 .terminal-window section.terminal {
 	color: white;
 	font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-	font-size: 11pt;
-	background: #1f2e46;
+	font-size: 0.95em;
+	background: rgba(31, 46, 70, 0.4);
 	padding: 10px;
 	box-sizing: border-box;
 	position: absolute;
@@ -54,6 +55,7 @@ body {
 	top: 25px;
 	height: 600px;
 	overflow: auto;
+	border-radius: 0px 0px 10px 10px;
 }
 .terminal-window section.terminal .typed-cursor {
 	opacity: 1;
