@@ -1,156 +1,143 @@
 body {
-  background: #6D7074;
+	background: #6D7074;
+	margin: 0 auto;
 }
-
 .terminal-window {
-  text-align: left;
-  width: 95%;
-  height: auto;
-  border-radius: 10px;
-  margin: auto;
-  position: relative;
-  transition: all ease-in-out .3s;
+	text-align: left;
+	width: 95%;
+	height: auto;
+	border-radius: 10px;
+	margin: auto;
+	position: relative;
+	transition: all ease-in-out .3s;
 }
-
 .terminal-window header {
-  background: #E0E8F0;
-  height: 25px;
-  border-radius: 8px 8px 0 0;
-  padding-left: 10px;
+	background: #E0E8F0;
+	height: 25px;
+	border-radius: 8px 8px 0 0;
+	padding-left: 10px;
 }
-
 .terminal-window header .button {
-  width: 12px;
-  height: 12px;
-  margin: 7px 4px 0 0;
-  display: inline-block;
-  border-radius: 8px;
+	width: 12px;
+	height: 12px;
+	margin: 7px 4px 0 0;
+	display: inline-block;
+	border-radius: 8px;
 }
-
 .terminal-window header .button.green {
-  background: #3BB662;
+	background: #3BB662;
 }
-
 .terminal-window header .button.yellow {
-  background: #E5C30F;
+	background: #E5C30F;
 }
-
 .terminal-window header .button.red {
-  background: #E75448;
+	background: #E75448;
 }
-
 .terminal-window section.terminal {
-  color: white;
-  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-  font-size: 11pt;
-  background: #1f2e46;
-  padding: 10px;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100%;
-  top: 25px;
-  height: 600px;
-  /*bottom: 0;*/
-  overflow: auto;
+	color: white;
+	font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+	font-size: 11pt;
+	background: #1f2e46;
+	padding: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	top: 25px;
+	height: 600px;
+	overflow: auto;
 }
-
 .terminal-window section.terminal .typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
 }
 @keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
 }
 @-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
 }
 @-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
 }
-
 .terminal-data { display: none; }
 .terminal-window .gray { color: silver; }
 .terminal-window .green { color: #00FF00;}
 .terminal-window .yellow { color: yellow;}
 .terminal-window .red { color: red;}
-
 .terminal-window .blue { color: #2582fe;}
 .terminal-window .teal { color: #32b5e2;}
 .terminal-window .green2 { color: #32D82C;}
 .terminal-window .yellow2 { color: #e8d938;}
 .terminal-window .orange { color: #e5673d;}
-
 a {
-  color: #32b5e2;
-  text-decoration: none;
+	color: #32b5e2;
+	text-decoration: none;
 }
-
 .buttongroup {
-  display: inline-block;
-  width: 15%;
-  min-width: 60px;
+	display: inline-block;
+	width: 15%;
+	min-width: 60px;
 }
 .centered {
-  display: inline-block;
-  font-family: Arial;
-  text-align: center;
-  width: 70%;
-  text-overflow: ellipsis;
-  overflow-y: hidden;
-  vertical-align: middle;
+	display: inline-block;
+	font-family: Arial;
+	text-align: center;
+	width: 70%;
+	text-overflow: ellipsis;
+	overflow-y: hidden;
+	vertical-align: middle;
 }
-
-.centered:before{
-  content: url('foldericon.png');
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0px 5px 0px 0px;
+.centered:before {
+	content: url('foldericon.png');
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 5px 0px 0px;
 }
 
 @media only screen and (max-width: 480px){
-  .centered {
-    font-size: 0.9em;
-  }
+	.centered {
+		font-size: 0.9em;
+	}
 }
 
 /* window maximize minimize and close */
 .terminal-window.window--maximized {
-  width: 100%;
+	width: 100%;
 }
 .terminal-window.window--minimized {
-  height: 25px;
-  width: 180px;
-  overflow-x: hidden;
+	height: 25px;
+	width: 180px;
+	overflow-x: hidden;
 }
 .terminal-window.terminal { display: none; }
 .terminal-window.window--destroyed {
-  opacity: 0;
-  width: 0;
-  height: 0;
+	opacity: 0;
+	width: 0;
+	height: 0;
 }
 .i-prompt {
-  width: 62px;
-  height: 62px;
-  background: url("https://cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-48.png") no-repeat center;
-  background-color: rgba(0,0,0,.35);
-  border-radius: 10px;
-  box-shadow: 0 3px 1px rgba(0,0,0,.25);
-  cursor: pointer;
-  transition: all ease-in-out .15s;
-  &:hover {
-    background-position: center 4px;
-  }
+	width: 62px;
+	height: 62px;
+	background: url("https://cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-48.png") no-repeat center;
+	background-color: rgba(0,0,0,.35);
+	border-radius: 10px;
+	box-shadow: 0 3px 1px rgba(0,0,0,.25);
+	cursor: pointer;
+	transition: all ease-in-out .15s;
+}
+.i-prompt:hover {
+	background-position: center 4px;
 }
 .i-prompt.hidden {
-  width: 0;
-  height: 0;
-  opacity: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
 }
