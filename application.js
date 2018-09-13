@@ -6,7 +6,7 @@ $(function() {
       postDelay: 1000
     }, {
       action: 'type',
-      strings: ['cd /resume2017'],
+      strings: ['cd /resume2018'],
       output: '&nbsp;',
       postDelay: 1000
     }, {
@@ -68,7 +68,7 @@ var prompt = {
   window: $(".terminal-window"),
   shortcut: $(".prompt-shortcut"),
   input: $(".js-prompt-input"),
-  
+
   init: function() {
     $(".js-minimize").click(prompt.minimize);
     $(".js-maximize").click(prompt.maximize);
